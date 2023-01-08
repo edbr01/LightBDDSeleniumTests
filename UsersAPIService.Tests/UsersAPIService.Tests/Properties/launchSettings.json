@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "UsersAPIService.Tests": {
+      "commandName": "Project",
+      "workingDirectory": "../"
+    }
+  }
+}

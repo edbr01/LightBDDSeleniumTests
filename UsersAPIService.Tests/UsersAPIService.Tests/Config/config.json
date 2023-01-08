@@ -1,0 +1,24 @@
+{
+  "CurrentEnvironment": "Prod",
+  "URLS": [
+    {
+      "BaseAddressEnv": "Prod",
+      "Url": "https://jsonplaceholder.typicode.com"
+    },
+
+    {
+      "BaseAddressEnv": "Alpha",
+      "Url": "https://alpha.jsonplaceholder.typicode.com"
+    },
+
+    {
+      "BaseAddressEnv": "QA",
+      "Url": "https://qa.jsonplaceholder.typicode.com"
+    },
+
+    {
+      "BaseAddressEnv": "Test",
+      "Url": "https://test.jsonplaceholder.typicode.com"
+    }
+  ]
+}
