@@ -8,6 +8,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using UsersAPIService.Tests.Models;
 using Newtonsoft.Json.Linq;
+using FluentAssertions;
 
 namespace UsersAPIService.Tests.Features
 {
@@ -96,6 +97,8 @@ namespace UsersAPIService.Tests.Features
             Assert.AreEqual(expected.Company.Name, actual.Company.Name);
             Assert.AreEqual(expected.Company.CatchPhrase, actual.Company.CatchPhrase);
             Assert.AreEqual(expected.Company.Bs, actual.Company.Bs);
+
+            actual.Name.Should().Be("Leanne Graham");
 
             return Task.CompletedTask;
         }
